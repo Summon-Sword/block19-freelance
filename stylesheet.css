@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: solid 1px #ddd;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  /* Freelancer specific styles */
+  .freelancer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .freelancer-name {
+    font-weight: bold;
+  }
+  
+  .freelancer-occupation {
+    /* Styling for occupation, could be italic or a different color */
+    font-style: italic;
+    color: #555;
+  }
+  
+  .freelancer-price {
+    /* You might want to highlight the price */
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  #averagePrice {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
